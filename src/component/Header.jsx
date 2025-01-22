@@ -7,17 +7,15 @@ const Header = () => {
     <h3>GET YOUR POKEMON DETAILS</h3>
     <ul>
         <li>
-        <NavLink to='/'>Home</NavLink>
+        <NavLink to='/' className={({ isActive }) => (isActive ? 'nav-link' : 'basic_class')}>Home</NavLink>
         </li>
         <li>
-        <NavLink to='/aboutus'>AboutUs</NavLink>
+        <NavLink to='/aboutus' className={({ isActive }) => (isActive ? 'nav-link' : 'basic_class')}>AboutUs</NavLink>
         </li>
        <li>
 
-        <NavLink to='/contactus'>ContactUs</NavLink>
-       </li>
-
-       
+        <NavLink to='/contactus' className={({ isActive }) => (isActive ? 'nav-link' : 'basic_class')}>ContactUs</NavLink>
+       </li>    
     </ul>
    </header>
   )
