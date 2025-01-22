@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Header from './Header';
 import SearchBox from './SearchBox';
 import Cards from './cards';
-
-
+import './Home.css';
 
 const Home = () => {
      const [pokemonData, setPokemonData] = useState([]);

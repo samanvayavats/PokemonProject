@@ -1,0 +1,15 @@
+h2{
+    color:  rgb(83, 88, 9);
+    text-transform: capitalize;
+}
+.nav-link{
+    /* font-weight: 10px */
+    
+    font-size: x-large;
+    color: rgb(83, 88, 9);
+    /* text-shadow: 2px 2px 2px; */
+}
+.basic_class{
+    font-size: larger;
+    color: rgb(83, 88, 9);
+}
